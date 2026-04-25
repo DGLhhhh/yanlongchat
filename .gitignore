@@ -1,8 +1,18 @@
+# VS 编译产物
 .vs/
 x64/
+Debug/
+Release/
 *.pdb
 *.ilk
 *.ipch
 *.log
-Debug/
-Release/
+
+# Qt 编译产物
+.qtcreator/
+build/
+build-*/
+cmake-build-*/
+*.pro.user
+*.pro.user.*
+*.autosave
