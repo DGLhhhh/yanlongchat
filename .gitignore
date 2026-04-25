@@ -1,0 +1,31 @@
+# Visual Studio
+.vs/
+x64/
+Debug/
+Release/
+*.pdb
+*.ilk
+*.ipch
+*.log
+*.suo
+*.tlog
+*.obj
+
+# Qt
+build/
+build-*/
+cmake-build-*/
+.qtcreator/
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+.DS_Store
+Album/
+HelloWorld/
+MainWindow/
+qt-learning-notes-master/

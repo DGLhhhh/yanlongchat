@@ -1,9 +1,0 @@
-G:\Datasets\QtProjects\server\GateServer\AsioIOServicePool.cpp;G:\Datasets\QtProjects\server\GateServer\GateServer\x64\Debug\AsioIOServicePool.obj
-G:\Datasets\QtProjects\server\GateServer\ConfigMgr.cpp;G:\Datasets\QtProjects\server\GateServer\GateServer\x64\Debug\ConfigMgr.obj
-G:\Datasets\QtProjects\server\GateServer\CServer.cpp;G:\Datasets\QtProjects\server\GateServer\GateServer\x64\Debug\CServer.obj
-G:\Datasets\QtProjects\server\GateServer\GateServer.cpp;G:\Datasets\QtProjects\server\GateServer\GateServer\x64\Debug\GateServer.obj
-G:\Datasets\QtProjects\server\GateServer\HttpConnection.cpp;G:\Datasets\QtProjects\server\GateServer\GateServer\x64\Debug\HttpConnection.obj
-G:\Datasets\QtProjects\server\GateServer\LogicSystem.cpp;G:\Datasets\QtProjects\server\GateServer\GateServer\x64\Debug\LogicSystem.obj
-G:\Datasets\QtProjects\server\GateServer\message.grpc.pb.cc;G:\Datasets\QtProjects\server\GateServer\GateServer\x64\Debug\message.grpc.pb.obj
-G:\Datasets\QtProjects\server\GateServer\message.pb.cc;G:\Datasets\QtProjects\server\GateServer\GateServer\x64\Debug\message.pb.obj
-G:\Datasets\QtProjects\server\GateServer\VerifyGrpcClient.cpp;G:\Datasets\QtProjects\server\GateServer\GateServer\x64\Debug\VerifyGrpcClient.obj
