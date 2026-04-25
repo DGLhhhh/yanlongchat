@@ -1,4 +1,4 @@
-# VS 编译产物
+# Visual Studio
 .vs/
 x64/
 Debug/
@@ -7,12 +7,21 @@ Release/
 *.ilk
 *.ipch
 *.log
+*.suo
+*.tlog
+*.obj
 
-# Qt 编译产物
-.qtcreator/
+# Qt
 build/
 build-*/
 cmake-build-*/
+.qtcreator/
 *.pro.user
 *.pro.user.*
 *.autosave
+
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+.DS_Store
