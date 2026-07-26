@@ -2,7 +2,7 @@ QDialog#LoginDialog, #RegisterDialog{
 background-color:rgb(255,255,255)
 }
 
-#user_label, #pass_label, #verify_label, #forget_label, #err_tip, #email_label, #confirm_label{
+#user_label, #pass_label, #varify_label, #forget_label, #err_tip, #email_label, #confirm_label{
     color:black;
 }
 

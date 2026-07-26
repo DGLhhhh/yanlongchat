@@ -234,9 +234,18 @@ background-color: rgb(227, 227, 227);</string>
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="0,0,0">
            <item>
-            <widget class="QLabel" name="verify_label">
+            <widget class="QLabel" name="varify_label">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
              <property name="minimumSize">
               <size>
                <width>0</width>
@@ -255,7 +264,7 @@ background-color: rgb(227, 227, 227);</string>
             </widget>
            </item>
            <item>
-            <widget class="QLineEdit" name="verify_edit">
+            <widget class="QLineEdit" name="varify_edit">
              <property name="minimumSize">
               <size>
                <width>0</width>
@@ -276,6 +285,12 @@ background-color: rgb(227, 227, 227);</string>
            </item>
            <item>
             <widget class="QPushButton" name="get_code">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
              <property name="minimumSize">
               <size>
                <width>0</width>
@@ -315,7 +330,7 @@ background-color: rgb(227, 227, 227);</string>
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_6">
            <item>
-            <widget class="QPushButton" name="confirm_btn">
+            <widget class="QPushButton" name="sure_btn">
              <property name="minimumSize">
               <size>
                <width>0</width>
