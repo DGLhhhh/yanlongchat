@@ -136,7 +136,7 @@ void TestRedisMgr() {
 int main()
 {
     // TestRedis();
-    TestRedisMgr();
+    // TestRedisMgr();
 	auto& gCfgMgr = ConfigMgr::Inst();
 	std::string gate_port_str = gCfgMgr["GateServer"]["Port"];
 	unsigned short gate_port = atoi(gate_port_str.c_str());
@@ -152,6 +152,7 @@ int main()
 			ioc.stop();
 			});
 		std::make_shared<CServer>(ioc, port)->Start();
+        std::cout << "Gate Server listen on port：" << port << std::endl;
 		ioc.run();
 	}
 	catch (std::exception const& e)
